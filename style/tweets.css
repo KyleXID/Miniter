@@ -1,0 +1,203 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-color: #e6ecf0;
+}
+
+.tweets-page {
+  width: 905px;
+  height: 625px;
+  padding: 5px;
+}
+
+.myidbox {
+  width: 298.98px;
+  height: 400px;
+  margin-right: 5px;
+  padding: 0 10px;
+  float: left;
+  position: relative;
+}
+
+.bluebox {
+  height: 90px;
+  background-color: #1da1f2;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  right: 10px;
+}
+
+.whitebox {
+  background-color: white;
+  position: absolute;
+  top: 90px;
+  left: 10px;
+  right: 10px;
+}
+
+.myname {
+  font-size: 21px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.tweetnb1 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #657785;
+  margin: 5px;
+  margin-left: 15px;
+}
+
+.tweetnb2 {
+  font-size: 21px;
+  font-weight: 700;
+  color: #1ca1f2;
+  margin: 5px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.emptytimeline{
+  float: right;
+  position: relative;
+  width: 589.98px;
+  margin-bottom: 100px;
+}
+
+.emptyminitbox {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  border: solid 1px;
+  border-color: #A4D9F9;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 0px;
+  margin-bottom: 2px;
+  background-color: #e8f5fd;
+}
+
+.mytweet-box {
+  height: 80px;
+  width: 555.98px;
+  max-width: 555.98px;
+  padding: 8px 31px 8px 8px;
+  border: solid 1px;
+  border-color: #c6e7fb;
+  border-radius: 8px;
+  outline-style: none;
+  font-size: 14px;
+}
+
+.mytweet-box:focus {
+  border: solid 2px;
+  border-color: #a4d9f9;
+} 
+
+.btbox {
+  height: 34px;
+  width: 83.95px;
+  background-color: rgb(29, 161, 242);
+  margin: 0px;
+  margin-top: 10px;
+  margin-left: 473px;
+  border: solid 1px;
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 9999px;
+  padding: 6px 16px;
+}
+
+.btbox:hover{
+  cursor: pointer;
+  transition-duration: 0.2s;
+  transition-property: background-color, box-shadow;
+  background-color: rgb(26, 145, 218);
+}
+
+.button {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: rgb(255, 255, 255);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-stretch: 100%;
+  font-weight: 700;
+  text-align: center;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.button:hover{
+  cursor: pointer;
+}
+
+ul {
+  margin: 1px;
+  padding: 0;
+  /* border: 1px solid white;
+  border-radius: 5px; */
+  list-style: none;
+}
+
+.user {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.date {
+  margin: 15px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.contents {
+  margin: 0;
+  margin-top: 10px;
+}
+
+.toli {
+  padding: 15px 20px;
+  border-radius: 5px;
+  background-color: white;
+  margin: 2px 0;  
+  position: relative;
+}
+
+.toli:hover {
+  background-color: #f5f8fa;
+}
+
+textarea {
+  resize: none;
+}
+
+.cautioncolor {
+  margin-top: 0px;
+  color: #e0245e;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.mytweet-boxerror {
+  height: 80px;
+  width: 555.98px;
+  max-width: 555.98px;
+  padding: 8px 31px 8px 8px;
+  border: solid 2px;
+  border-color: #e0245e;
+  border-radius: 8px;
+  outline-style: none;
+  font-size: 14px;
+}
+

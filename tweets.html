@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tweets</title>
+
+  <link rel="stylesheet" href="./style/common.css" type="text/css">
+  <link rel="stylesheet" href="./style/tweets.css" type="text/css">
+</head>
+<body>
+
+  <div class="tweets-page">
+    <div class="myidbox">
+      <div class="bluebox">
+      </div>
+      
+      <div class="whitebox">
+        <p class="myname" id="myname">Hyungju Lee</p>
+
+        <div class="bigtwbox">
+          <p class="tweetnb1">Tweets</p>
+          <p class="tweetnb2">1</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="emptytimeline">
+
+      <div class="emptyminitbox">
+
+        <div class="bigtextbox">
+          <textarea aria-hidden class="mytweet-box" placeholder="What's happening?"></textarea>
+        </div>
+
+        <div class="errorbox">
+          <p class="error" id="caution"></p>
+        </div>
+
+        <div class="btbox right-0">
+          <button class="button" type="button"><span>Tweet</span>
+          </button>
+        </div>
+
+        </div class="userli">
+          <ul id = "list">
+          </ul>
+        </div>
+
+    </div>
+  </div>
+
+  <script src="./js/tweets.js"></script>
+</body>
+</html>

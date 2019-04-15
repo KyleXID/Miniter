@@ -1,0 +1,162 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.titlebox {
+  margin-bottom: 15px;
+}
+
+.imgbox {
+  text-align: center;
+}
+
+.miniterimg{
+  width: 50px;
+}
+
+.totallogin {
+  max-width: 600px;
+  padding: 0 10px;
+  border: 0;
+  margin-top: 50px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.phonetologin {
+  width: 100%;
+  border: 0px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.pagetitle {
+  height : 30px;
+  margin-top : 10px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: rgb(20, 23, 26);
+  font-weight: bold;
+  text-align: center;
+}
+
+.bigidbox {
+  padding: 0 10px;
+  border: 0;
+  margin-top: 10px;
+}
+
+.bigpwbox {
+  padding: 0 10px;
+  border: 0;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+input::placeholder {
+  color: rgb(101, 119, 134);
+}
+
+.idbox {
+  background-color: rgb(245, 248, 250);
+  width : 100%;
+  height: 58px;
+  padding : 14px 9px;
+  border : 0px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom: 2px solid rgb(101,119,134);
+  margin : 0px;
+  font-size : 18px;
+  font-weight: 400;
+  font-family: inherit;
+}
+
+.idbox:focus {
+  outline: none;
+  border-bottom-color: rgb(29, 161, 242);
+}
+
+.btbox {
+  height: 49px;
+  background-color: rgb(29, 161, 242);
+  margin: 10px;
+  border: solid 1px;
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 9999px;
+  padding: 0 15px;
+}
+
+.btbox:hover{
+  cursor: pointer;
+  transition-duration: 0.2s;
+  transition-property: background-color, box-shadow;
+  background-color: rgb(26, 145, 218);
+}
+
+.button {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: rgb(255, 255, 255);
+  font-size: 19px;
+  font-stretch: 100%;
+  font-weight: 700;
+  text-align: center;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.button:hover{
+  cursor: pointer;
+}
+
+
+
+.pwsign{
+  color: rgb(29, 161, 242);
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  font-family: inherit;
+  text-decoration-line: none;
+}
+
+.pwsign:hover {
+  cursor: pointer;
+}
+
+.forgot {
+  height: 19px;
+  margin: 15px 0 0 0;
+  text-align: center;
+}
+
+input.idbox.iderror {
+  background-color: rgb(245, 248, 250);
+  width : 100%;
+  height: 100%;
+  padding : 14px 9px;
+  border : 0px;
+  border-bottom : 2px solid #e0245e;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  margin : 0px;
+  font-size : 18px;
+  font-weight: 400;
+  font-family: inherit;
+}
+
+.cautionid {
+  color: #e0245e;
+  font-size : 14px;
+  font-weight: 400;
+  margin-top: 5px;
+}

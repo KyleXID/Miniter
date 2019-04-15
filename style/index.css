@@ -1,0 +1,96 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+.main-page {
+  width: 720px;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.maintitle {
+  text-align: center;
+}
+
+.joinnow {
+  font-weight: 700;
+  font-size: 19px;
+
+}
+
+.ttbt {
+  width: 380px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgbox {
+  margin: 40px 0;
+}
+
+.miniterimg {
+  width: 380px;
+}
+
+.btbox {
+  height: 49px;
+  margin: 10px;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 10px;
+  border: solid 1px rgba(0, 0, 0, 0);
+  border-radius: 9999px;
+  
+  font-size: 19px;
+  font-stretch: 100%;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-decoration-line: none;
+  background-color: rgb(29, 161, 242);
+
+}
+
+
+
+.button:hover{
+  cursor: pointer;
+  transition-duration: 0.2s;
+  transition-property: background-color, box-shadow;
+  background-color: rgb(26, 145, 218);
+}
+
+.button1 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: rgb(26, 145, 218);
+  font-size: 19px;
+  font-stretch: 100%;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  border: solid 1px rgb(29, 161, 242);
+  border-radius: 9999px;
+  background-color: white;
+  text-decoration-line: none;
+}
+
+.btbox1 {
+  height: 49px;
+  margin: 10px;
+}
+
+.button1:hover{
+  cursor: pointer;
+  transition-duration: 0.2s;
+  transition-property: background-color, box-shadow;
+  background-color: #d2ecfc;
+}
